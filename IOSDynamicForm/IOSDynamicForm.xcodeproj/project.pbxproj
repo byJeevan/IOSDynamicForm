@@ -154,6 +154,7 @@
 		3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
 		3C6919741E4AD53700E69EC2 /* detail_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_bg.jpg; sourceTree = "<group>"; };
 		3C6919761E4AF7A500E69EC2 /* erroricon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erroricon1.png; sourceTree = "<group>"; };
+		3C6919781E4B03E700E69EC2 /* TJFormObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJFormObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +259,7 @@
 				0952F6BD1E4A2EDE00524BAA /* TJBinderKeyPathParser.h */,
 				0952F6BE1E4A2EDE00524BAA /* TJBinderKeyPathParser.m */,
 				0952F6BF1E4A2EDE00524BAA /* TJBinderLogger.h */,
+				3C6919781E4B03E700E69EC2 /* TJFormObject.h */,
 				0952F6C01E4A2EDE00524BAA /* TJDataObject.h */,
 				0952F6C11E4A2EDE00524BAA /* UIView+TJBinder.h */,
 				0952F6C21E4A2EDE00524BAA /* UIView+TJBinder.m */,

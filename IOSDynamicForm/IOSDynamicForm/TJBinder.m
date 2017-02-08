@@ -259,6 +259,7 @@
 
 -(void)updateViewForBindingEntry:(TJBindEntry*)entry
 {
+    
     id extractedValue = [self.dataObject valueForKeyPath:entry.dataObjectKeyPath];
     
     [entry.view setValue:extractedValue forKey:entry.viewKey];
@@ -267,9 +268,7 @@
 
 -(void) updateBindingEntryForView:(TJBindEntry*)entry
 {
-   // id extractedValue = [self.dataObject valueForKeyPath:entry.dataObjectKeyPath];
-    
-   // [entry.view setValue:extractedValue forKey:entry.viewKey];
+ 
     id extractedValue = [entry.view valueForKey:entry.viewKey];
     
     [self.dataObject setValue:extractedValue forKey:entry.dataObjectKeyPath];

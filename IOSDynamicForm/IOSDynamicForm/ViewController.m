@@ -16,10 +16,10 @@
 
 @interface ViewController ()<UITextFieldDelegate>
 @property (nonatomic, strong) RegistrationDto *registrationDto;
-@property (strong, nonatomic)  Form * form;
-@property (weak, nonatomic) IBOutlet UITextField *playerName;
-@property (weak, nonatomic) IBOutlet UILabel *errorLabel;
-@property (weak, nonatomic) IBOutlet UIButton *errorIcon;
+
+//@property (weak, nonatomic) IBOutlet UITextField *playerName;
+//@property (weak, nonatomic) IBOutlet UILabel *errorLabel;
+//@property (weak, nonatomic) IBOutlet UIButton *errorIcon;
 
 @end
 
@@ -38,41 +38,31 @@
     //Create a new dto
     self.registrationDto = [RegistrationDto new];
     
-    //Binding object
+    //Binding data object
     self.view.dataObject = self.registrationDto;
     
     //Create new form
-    self.form = [Form new];
-    
+//    self.form = [Form new];
     
     //Form element - email
-    NSArray * arrayValidationEmail = [NSArray arrayWithObjects:[IsEmpty new], [IsAlphabet new], nil];
-    Field * field = [[Field alloc] initWithView:self.playerName errorMessageView:self.errorLabel errorHintView:self.errorIcon validationsArray:arrayValidationEmail];
-    [self.form addNewField:field];
+//    NSArray * arrayValidationEmail = [NSArray arrayWithObjects:[IsEmpty new], [IsAlphabet new], nil];
+//    Field * field = [[Field alloc] initWithView:self.playerName errorMessageView:self.errorLabel errorHintView:self.errorIcon validationsArray:arrayValidationEmail];
+//    [self.form addNewField:field];
     
 }
 
 - (IBAction)actionButton:(id)sender {
     
-    if ([self.form isFormValid]) {
+//    if ([self.form isFormValid]) {
         //Do after valid
-        NSLog(@"********* FORM IS VALID ************");
-        
+    
+    
         DetailedViewController * detailedViewController = [DetailedViewController new];
-        [self.view updateDataObjectFromView];
-        
-        NSLog(@"New player : %@", self.registrationDto.playerName);
-        
+    
+        [self.view updateDataObjectFromView]; //////-> FORM VALIDATION HERE //////
+    
         //TODO : Pass registration DTO
         [self presentViewController:detailedViewController animated:NO completion:nil];
-        
-    }
-    else{
-        //Do when not valid
-        NSLog(@"********* FORM IS NOT VALID ************");
-    }
-    
-
 }
 
 - (void)didReceiveMemoryWarning {

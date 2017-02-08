@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseDto.h"
-
+#import "Field.h"
 /**
  * Player Registration Model class.
  */
 @interface RegistrationDto : BaseDto
 
-@property (nonatomic,strong) NSString * playerName;
+@property (nonatomic,strong) Field * playerField;
 @property (nonatomic,strong) NSString * location;
 @property (nonatomic,strong) NSString * teamName;
 @property (nonatomic,strong) NSNumber * totalScore;

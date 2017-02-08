@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DetailedViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (IBAction)actionButton:(id)sender {
 
-
+    //Do form validation
+    
+    DetailedViewController * detailedViewController = [DetailedViewController new];
+    
+    [self presentViewController:detailedViewController animated:NO completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

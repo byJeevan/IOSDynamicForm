@@ -15,38 +15,41 @@
 		0952F6941E4A2E0100524BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0952F6921E4A2E0100524BAA /* LaunchScreen.storyboard */; };
 		0952F69F1E4A2E0100524BAA /* IOSDynamicFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F69E1E4A2E0100524BAA /* IOSDynamicFormTests.m */; };
 		0952F6AA1E4A2E0200524BAA /* IOSDynamicFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6A91E4A2E0200524BAA /* IOSDynamicFormUITests.m */; };
-		0952F6C31E4A2EDE00524BAA /* BaseDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6B81E4A2EDE00524BAA /* BaseDto.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6C41E4A2EDE00524BAA /* RegistrationDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BA1E4A2EDE00524BAA /* RegistrationDto.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6C51E4A2EDE00524BAA /* TJBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BC1E4A2EDE00524BAA /* TJBinder.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6C61E4A2EDE00524BAA /* TJBinderKeyPathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BE1E4A2EDE00524BAA /* TJBinderKeyPathParser.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6C71E4A2EDE00524BAA /* UIView+TJBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6C21E4A2EDE00524BAA /* UIView+TJBinder.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6D31E4A306E00524BAA /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6CC1E4A306E00524BAA /* Field.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6D41E4A306E00524BAA /* FieldBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6CE1E4A306E00524BAA /* FieldBuilder.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6D51E4A306E00524BAA /* Fields.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D01E4A306E00524BAA /* Fields.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6D61E4A306E00524BAA /* Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D21E4A306E00524BAA /* Form.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6DB1E4A30C400524BAA /* ErrorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D81E4A30C400524BAA /* ErrorButton.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6DC1E4A30C400524BAA /* ErrorMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6DA1E4A30C400524BAA /* ErrorMessageView.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6E41E4A30F100524BAA /* UITextFieldViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6DF1E4A30F100524BAA /* UITextFieldViewWrapper.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6E51E4A30F100524BAA /* ViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E11E4A30F100524BAA /* ViewWrapper.m */; settings = {ASSET_TAGS = (); }; };
-		0952F6E61E4A30F100524BAA /* ViewWrapperFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E31E4A30F100524BAA /* ViewWrapperFactory.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7031E4A313B00524BAA /* IsAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E91E4A313B00524BAA /* IsAlphabet.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7041E4A313B00524BAA /* IsAlphaNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6EB1E4A313B00524BAA /* IsAlphaNumeric.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7051E4A313B00524BAA /* IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6ED1E4A313B00524BAA /* IsEmpty.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7061E4A313B00524BAA /* IsInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6EF1E4A313B00524BAA /* IsInRange.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7071E4A313B00524BAA /* IsNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F11E4A313B00524BAA /* IsNumber.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7081E4A313B00524BAA /* IsPositiveInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F31E4A313B00524BAA /* IsPositiveInteger.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7091E4A313B00524BAA /* IsValidAadhaarNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F51E4A313B00524BAA /* IsValidAadhaarNumber.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70A1E4A313B00524BAA /* IsValidDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F71E4A313B00524BAA /* IsValidDate.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70B1E4A313B00524BAA /* IsValidEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F91E4A313B00524BAA /* IsValidEmail.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70C1E4A313B00524BAA /* IsValidLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FB1E4A313B00524BAA /* IsValidLength.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70D1E4A313B00524BAA /* IsValidMonthYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FD1E4A313B00524BAA /* IsValidMonthYear.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70E1E4A313B00524BAA /* IsValidPan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FF1E4A313B00524BAA /* IsValidPan.m */; settings = {ASSET_TAGS = (); }; };
-		0952F70F1E4A313B00524BAA /* IsValidTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F7011E4A313B00524BAA /* IsValidTime.m */; settings = {ASSET_TAGS = (); }; };
-		0952F7161E4A323500524BAA /* underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7151E4A323500524BAA /* underline.png */; settings = {ASSET_TAGS = (); }; };
-		0952F7181E4A326200524BAA /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7171E4A326200524BAA /* line.png */; settings = {ASSET_TAGS = (); }; };
-		0952F71A1E4A342300524BAA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7191E4A342300524BAA /* background.jpg */; settings = {ASSET_TAGS = (); }; };
-		0952F71C1E4A368D00524BAA /* eve.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71B1E4A368D00524BAA /* eve.png */; settings = {ASSET_TAGS = (); }; };
-		0952F7201E4A395B00524BAA /* tick_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71F1E4A395B00524BAA /* tick_blue.png */; settings = {ASSET_TAGS = (); }; };
+		0952F6C31E4A2EDE00524BAA /* BaseDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6B81E4A2EDE00524BAA /* BaseDto.m */; };
+		0952F6C41E4A2EDE00524BAA /* RegistrationDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BA1E4A2EDE00524BAA /* RegistrationDto.m */; };
+		0952F6C51E4A2EDE00524BAA /* TJBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BC1E4A2EDE00524BAA /* TJBinder.m */; };
+		0952F6C61E4A2EDE00524BAA /* TJBinderKeyPathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6BE1E4A2EDE00524BAA /* TJBinderKeyPathParser.m */; };
+		0952F6C71E4A2EDE00524BAA /* UIView+TJBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6C21E4A2EDE00524BAA /* UIView+TJBinder.m */; };
+		0952F6D31E4A306E00524BAA /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6CC1E4A306E00524BAA /* Field.m */; };
+		0952F6D41E4A306E00524BAA /* FieldBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6CE1E4A306E00524BAA /* FieldBuilder.m */; };
+		0952F6D51E4A306E00524BAA /* Fields.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D01E4A306E00524BAA /* Fields.m */; };
+		0952F6D61E4A306E00524BAA /* Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D21E4A306E00524BAA /* Form.m */; };
+		0952F6DB1E4A30C400524BAA /* ErrorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6D81E4A30C400524BAA /* ErrorButton.m */; };
+		0952F6DC1E4A30C400524BAA /* ErrorMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6DA1E4A30C400524BAA /* ErrorMessageView.m */; };
+		0952F6E41E4A30F100524BAA /* UITextFieldViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6DF1E4A30F100524BAA /* UITextFieldViewWrapper.m */; };
+		0952F6E51E4A30F100524BAA /* ViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E11E4A30F100524BAA /* ViewWrapper.m */; };
+		0952F6E61E4A30F100524BAA /* ViewWrapperFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E31E4A30F100524BAA /* ViewWrapperFactory.m */; };
+		0952F7031E4A313B00524BAA /* IsAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6E91E4A313B00524BAA /* IsAlphabet.m */; };
+		0952F7041E4A313B00524BAA /* IsAlphaNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6EB1E4A313B00524BAA /* IsAlphaNumeric.m */; };
+		0952F7051E4A313B00524BAA /* IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6ED1E4A313B00524BAA /* IsEmpty.m */; };
+		0952F7061E4A313B00524BAA /* IsInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6EF1E4A313B00524BAA /* IsInRange.m */; };
+		0952F7071E4A313B00524BAA /* IsNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F11E4A313B00524BAA /* IsNumber.m */; };
+		0952F7081E4A313B00524BAA /* IsPositiveInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F31E4A313B00524BAA /* IsPositiveInteger.m */; };
+		0952F7091E4A313B00524BAA /* IsValidAadhaarNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F51E4A313B00524BAA /* IsValidAadhaarNumber.m */; };
+		0952F70A1E4A313B00524BAA /* IsValidDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F71E4A313B00524BAA /* IsValidDate.m */; };
+		0952F70B1E4A313B00524BAA /* IsValidEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6F91E4A313B00524BAA /* IsValidEmail.m */; };
+		0952F70C1E4A313B00524BAA /* IsValidLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FB1E4A313B00524BAA /* IsValidLength.m */; };
+		0952F70D1E4A313B00524BAA /* IsValidMonthYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FD1E4A313B00524BAA /* IsValidMonthYear.m */; };
+		0952F70E1E4A313B00524BAA /* IsValidPan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F6FF1E4A313B00524BAA /* IsValidPan.m */; };
+		0952F70F1E4A313B00524BAA /* IsValidTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F7011E4A313B00524BAA /* IsValidTime.m */; };
+		0952F7161E4A323500524BAA /* underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7151E4A323500524BAA /* underline.png */; };
+		0952F7181E4A326200524BAA /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7171E4A326200524BAA /* line.png */; };
+		0952F71A1E4A342300524BAA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7191E4A342300524BAA /* background.jpg */; };
+		0952F71C1E4A368D00524BAA /* eve.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71B1E4A368D00524BAA /* eve.png */; };
+		0952F7201E4A395B00524BAA /* tick_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71F1E4A395B00524BAA /* tick_blue.png */; };
+		3C6919721E4AD41900E69EC2 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6919701E4AD41900E69EC2 /* DetailedViewController.m */; };
+		3C6919731E4AD41900E69EC2 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */; };
+		3C6919751E4AD53700E69EC2 /* detail_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919741E4AD53700E69EC2 /* detail_bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +148,10 @@
 		0952F7191E4A342300524BAA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0952F71B1E4A368D00524BAA /* eve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve.png; sourceTree = "<group>"; };
 		0952F71F1E4A395B00524BAA /* tick_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick_blue.png; sourceTree = "<group>"; };
+		3C69196F1E4AD41900E69EC2 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		3C6919701E4AD41900E69EC2 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
+		3C6919741E4AD53700E69EC2 /* detail_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +223,9 @@
 				0952F6921E4A2E0100524BAA /* LaunchScreen.storyboard */,
 				0952F6951E4A2E0100524BAA /* Info.plist */,
 				0952F6851E4A2E0100524BAA /* main.m */,
+				3C69196F1E4AD41900E69EC2 /* DetailedViewController.h */,
+				3C6919701E4AD41900E69EC2 /* DetailedViewController.m */,
+				3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -353,6 +363,7 @@
 			children = (
 				0952F7171E4A326200524BAA /* line.png */,
 				0952F71F1E4A395B00524BAA /* tick_blue.png */,
+				3C6919741E4AD53700E69EC2 /* detail_bg.jpg */,
 				0952F7151E4A323500524BAA /* underline.png */,
 				0952F71B1E4A368D00524BAA /* eve.png */,
 				0952F7191E4A342300524BAA /* background.jpg */,
@@ -468,11 +479,13 @@
 				0952F6941E4A2E0100524BAA /* LaunchScreen.storyboard in Resources */,
 				0952F7181E4A326200524BAA /* line.png in Resources */,
 				0952F6911E4A2E0100524BAA /* Assets.xcassets in Resources */,
+				3C6919751E4AD53700E69EC2 /* detail_bg.jpg in Resources */,
 				0952F71A1E4A342300524BAA /* background.jpg in Resources */,
 				0952F7161E4A323500524BAA /* underline.png in Resources */,
 				0952F71C1E4A368D00524BAA /* eve.png in Resources */,
 				0952F68F1E4A2E0100524BAA /* Main.storyboard in Resources */,
 				0952F7201E4A395B00524BAA /* tick_blue.png in Resources */,
+				3C6919731E4AD41900E69EC2 /* DetailedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +526,7 @@
 				0952F6C51E4A2EDE00524BAA /* TJBinder.m in Sources */,
 				0952F7081E4A313B00524BAA /* IsPositiveInteger.m in Sources */,
 				0952F7051E4A313B00524BAA /* IsEmpty.m in Sources */,
+				3C6919721E4AD41900E69EC2 /* DetailedViewController.m in Sources */,
 				0952F6D61E4A306E00524BAA /* Form.m in Sources */,
 				0952F70D1E4A313B00524BAA /* IsValidMonthYear.m in Sources */,
 				0952F7061E4A313B00524BAA /* IsInRange.m in Sources */,
@@ -754,6 +768,7 @@
 				0952F6B01E4A2E0200524BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0952F6B11E4A2E0200524BAA /* Build configuration list for PBXNativeTarget "IOSDynamicFormTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +777,7 @@
 				0952F6B31E4A2E0200524BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0952F6B41E4A2E0200524BAA /* Build configuration list for PBXNativeTarget "IOSDynamicFormUITests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +786,7 @@
 				0952F6B61E4A2E0200524BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

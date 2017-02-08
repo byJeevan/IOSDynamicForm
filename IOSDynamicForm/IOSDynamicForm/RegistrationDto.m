@@ -8,13 +8,7 @@
 
 #import "RegistrationDto.h"
 
-@interface RegistrationDto ()
-
-
-@end
-
 @implementation RegistrationDto
-
 
 @end
 

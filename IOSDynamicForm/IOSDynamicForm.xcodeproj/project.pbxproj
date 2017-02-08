@@ -50,6 +50,7 @@
 		3C6919721E4AD41900E69EC2 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6919701E4AD41900E69EC2 /* DetailedViewController.m */; };
 		3C6919731E4AD41900E69EC2 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */; };
 		3C6919751E4AD53700E69EC2 /* detail_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919741E4AD53700E69EC2 /* detail_bg.jpg */; };
+		3C6919771E4AF7A500E69EC2 /* erroricon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919761E4AF7A500E69EC2 /* erroricon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		3C6919701E4AD41900E69EC2 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
 		3C6919741E4AD53700E69EC2 /* detail_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_bg.jpg; sourceTree = "<group>"; };
+		3C6919761E4AF7A500E69EC2 /* erroricon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erroricon1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +363,7 @@
 		0952F7141E4A31E600524BAA /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3C6919761E4AF7A500E69EC2 /* erroricon1.png */,
 				0952F7171E4A326200524BAA /* line.png */,
 				0952F71F1E4A395B00524BAA /* tick_blue.png */,
 				3C6919741E4AD53700E69EC2 /* detail_bg.jpg */,
@@ -482,6 +485,7 @@
 				3C6919751E4AD53700E69EC2 /* detail_bg.jpg in Resources */,
 				0952F71A1E4A342300524BAA /* background.jpg in Resources */,
 				0952F7161E4A323500524BAA /* underline.png in Resources */,
+				3C6919771E4AF7A500E69EC2 /* erroricon1.png in Resources */,
 				0952F71C1E4A368D00524BAA /* eve.png in Resources */,
 				0952F68F1E4A2E0100524BAA /* Main.storyboard in Resources */,
 				0952F7201E4A395B00524BAA /* tick_blue.png in Resources */,

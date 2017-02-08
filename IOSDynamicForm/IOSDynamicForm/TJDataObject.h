@@ -16,4 +16,6 @@
 
 - (void)updateFromDataObject;
 
+-(void)updateDataObjectFromView;
+
 @end

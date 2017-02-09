@@ -22,9 +22,9 @@
 
 @property (assign) BOOL errorMessageDefaultHidden;
 
--(void) addNewField:(Field *) field;
+//-(void) addNewField:(Field *) field;
 
--(void) addNewField:(Field *)field withDependencyField:(Field *) dependencyField;
+//-(void) addNewField:(Field *)field withDependencyField:(Field *) dependencyField;
 
 -(BOOL) isFormValid;
 

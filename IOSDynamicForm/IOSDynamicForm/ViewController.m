@@ -10,16 +10,13 @@
 #import "DetailedViewController.h"
 #import "RegistrationDto.h"
 #import "UIView+TJBinder.h"
+#import "UIView+Wrapper.h"
 
 #import "Field.h"
 #import "Form.h"
 
 @interface ViewController ()<UITextFieldDelegate>
 @property (nonatomic, strong) RegistrationDto *registrationDto;
-
-//@property (weak, nonatomic) IBOutlet UITextField *playerName;
-//@property (weak, nonatomic) IBOutlet UILabel *errorLabel;
-//@property (weak, nonatomic) IBOutlet UIButton *errorIcon;
 
 @end
 
@@ -38,16 +35,13 @@
     //Create a new dto
     self.registrationDto = [RegistrationDto new];
     
+    self.registrationDto.playerProfile.messageLabelText = @"Major error occured";
+    
+    self.registrationDto.playerProfile.fieldText = @"JEevangamer";
+    
     //Binding data object
     self.view.dataObject = self.registrationDto;
-    
-    //Create new form
-//    self.form = [Form new];
-    
-    //Form element - email
-//    NSArray * arrayValidationEmail = [NSArray arrayWithObjects:[IsEmpty new], [IsAlphabet new], nil];
-//    Field * field = [[Field alloc] initWithView:self.playerName errorMessageView:self.errorLabel errorHintView:self.errorIcon validationsArray:arrayValidationEmail];
-//    [self.form addNewField:field];
+
     
 }
 

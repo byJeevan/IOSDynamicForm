@@ -47,6 +47,8 @@
 		0952F71A1E4A342300524BAA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0952F7191E4A342300524BAA /* background.jpg */; };
 		0952F71C1E4A368D00524BAA /* eve.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71B1E4A368D00524BAA /* eve.png */; };
 		0952F7201E4A395B00524BAA /* tick_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0952F71F1E4A395B00524BAA /* tick_blue.png */; };
+		09A6DB8A1E4B890100C9C041 /* UITextField+Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A6DB891E4B890100C9C041 /* UITextField+Field.m */; settings = {ASSET_TAGS = (); }; };
+		09A6DB8D1E4B897A00C9C041 /* UIView+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A6DB8C1E4B897A00C9C041 /* UIView+Wrapper.m */; settings = {ASSET_TAGS = (); }; };
 		3C6919721E4AD41900E69EC2 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6919701E4AD41900E69EC2 /* DetailedViewController.m */; };
 		3C6919731E4AD41900E69EC2 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */; };
 		3C6919751E4AD53700E69EC2 /* detail_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6919741E4AD53700E69EC2 /* detail_bg.jpg */; };
@@ -149,6 +151,10 @@
 		0952F7191E4A342300524BAA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0952F71B1E4A368D00524BAA /* eve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve.png; sourceTree = "<group>"; };
 		0952F71F1E4A395B00524BAA /* tick_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick_blue.png; sourceTree = "<group>"; };
+		09A6DB881E4B890100C9C041 /* UITextField+Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Field.h"; sourceTree = "<group>"; };
+		09A6DB891E4B890100C9C041 /* UITextField+Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Field.m"; sourceTree = "<group>"; };
+		09A6DB8B1E4B897A00C9C041 /* UIView+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Wrapper.h"; sourceTree = "<group>"; };
+		09A6DB8C1E4B897A00C9C041 /* UIView+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Wrapper.m"; sourceTree = "<group>"; };
 		3C69196F1E4AD41900E69EC2 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
 		3C6919701E4AD41900E69EC2 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
@@ -213,6 +219,8 @@
 				0952F6881E4A2E0100524BAA /* AppDelegate.m */,
 				0952F68A1E4A2E0100524BAA /* ViewController.h */,
 				0952F68B1E4A2E0100524BAA /* ViewController.m */,
+				3C69196F1E4AD41900E69EC2 /* DetailedViewController.h */,
+				3C6919701E4AD41900E69EC2 /* DetailedViewController.m */,
 				0952F6841E4A2E0100524BAA /* Supporting Files */,
 			);
 			path = IOSDynamicForm;
@@ -226,8 +234,6 @@
 				0952F6921E4A2E0100524BAA /* LaunchScreen.storyboard */,
 				0952F6951E4A2E0100524BAA /* Info.plist */,
 				0952F6851E4A2E0100524BAA /* main.m */,
-				3C69196F1E4AD41900E69EC2 /* DetailedViewController.h */,
-				3C6919701E4AD41900E69EC2 /* DetailedViewController.m */,
 				3C6919711E4AD41900E69EC2 /* DetailedViewController.xib */,
 			);
 			name = "Supporting Files";
@@ -281,6 +287,7 @@
 		0952F6CA1E4A2F6300524BAA /* Form */ = {
 			isa = PBXGroup;
 			children = (
+				09A6DB871E4B88DE00C9C041 /* Categories */,
 				0952F7101E4A314700524BAA /* Validations */,
 				0952F6E71E4A30FD00524BAA /* View Wrapper */,
 				0952F6DD1E4A30CA00524BAA /* Error Views */,
@@ -374,6 +381,17 @@
 				0952F7191E4A342300524BAA /* background.jpg */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		09A6DB871E4B88DE00C9C041 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				09A6DB881E4B890100C9C041 /* UITextField+Field.h */,
+				09A6DB891E4B890100C9C041 /* UITextField+Field.m */,
+				09A6DB8B1E4B897A00C9C041 /* UIView+Wrapper.h */,
+				09A6DB8C1E4B897A00C9C041 /* UIView+Wrapper.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,6 +538,7 @@
 				0952F6C41E4A2EDE00524BAA /* RegistrationDto.m in Sources */,
 				0952F6D51E4A306E00524BAA /* Fields.m in Sources */,
 				0952F6C71E4A2EDE00524BAA /* UIView+TJBinder.m in Sources */,
+				09A6DB8A1E4B890100C9C041 /* UITextField+Field.m in Sources */,
 				0952F6E51E4A30F100524BAA /* ViewWrapper.m in Sources */,
 				0952F6D31E4A306E00524BAA /* Field.m in Sources */,
 				0952F7071E4A313B00524BAA /* IsNumber.m in Sources */,
@@ -541,6 +560,7 @@
 				0952F6DB1E4A30C400524BAA /* ErrorButton.m in Sources */,
 				0952F6C31E4A2EDE00524BAA /* BaseDto.m in Sources */,
 				0952F70C1E4A313B00524BAA /* IsValidLength.m in Sources */,
+				09A6DB8D1E4B897A00C9C041 /* UIView+Wrapper.m in Sources */,
 				0952F6E61E4A30F100524BAA /* ViewWrapperFactory.m in Sources */,
 				0952F6E41E4A30F100524BAA /* UITextFieldViewWrapper.m in Sources */,
 				0952F6861E4A2E0100524BAA /* main.m in Sources */,

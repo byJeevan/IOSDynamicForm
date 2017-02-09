@@ -15,6 +15,6 @@
 @property (nonatomic,strong) Field * dependencyField;
 
 
--(instancetype) initWithField:(Field *) firstField andDependenctyField:(Field *) dependencyField;
+//-(instancetype) initWithField:(Field *) firstField andDependenctyField:(Field *) dependencyField;
 
 @end

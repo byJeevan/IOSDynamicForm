@@ -10,6 +10,7 @@
 #import "ValidatorInterface.h"
 #import "ViewWrapperFactory.h"
 #import "Fields.h"
+#import "UITextField+Field.h"
 
 @implementation Form
 
@@ -27,13 +28,15 @@
 
 -(void) addNewField:(Field *) field {
     
-    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:nil]];
+//    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:nil]];
+    
+    
     
 }
 
 -(void) addNewField:(Field *)field withDependencyField:(Field *) dependencyField{
     
-    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:dependencyField]];
+//    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:dependencyField]];
 }
 
 

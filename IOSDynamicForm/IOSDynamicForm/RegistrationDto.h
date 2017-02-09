@@ -8,13 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseDto.h"
-#import "Field.h"
+#import "UITextField+Field.h"
 /**
  * Player Registration Model class.
  */
 @interface RegistrationDto : BaseDto
 
-@property (nonatomic,strong) Field * playerField;
+@property (nonatomic,strong) UITextField * playerProfile;
+//player profile has key path ---- > playerProfile.messageLabelText
+//and has keyPATH            ------> playerProfile.fieldText
+
 @property (nonatomic,strong) NSString * location;
 @property (nonatomic,strong) NSString * teamName;
 @property (nonatomic,strong) NSNumber * totalScore;

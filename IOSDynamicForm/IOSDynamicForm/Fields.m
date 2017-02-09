@@ -11,15 +11,15 @@
 @implementation Fields
 
 
--(instancetype) initWithField:(Field *) firstField andDependenctyField:(Field *) dependencyField {
- 
-    if (self = [super init]) {
-        
-        self.firstField = firstField;
-        self.dependencyField = dependencyField;
-    }
-
-    return self;
-}
+//-(instancetype) initWithField:(Field *) firstField andDependenctyField:(Field *) dependencyField {
+// 
+//    if (self = [super init]) {
+//        
+//        self.firstField = firstField;
+//        self.dependencyField = dependencyField;
+//    }
+//
+//    return self;
+//}
 
 @end

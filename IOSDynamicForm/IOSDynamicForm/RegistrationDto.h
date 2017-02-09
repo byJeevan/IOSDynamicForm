@@ -14,10 +14,7 @@
  */
 @interface RegistrationDto : BaseDto
 
-@property (nonatomic,strong) UITextField * playerProfile;
-//player profile has key path ---- > playerProfile.messageLabelText
-//and has keyPATH            ------> playerProfile.fieldText
-
+@property (nonatomic,strong) NSString * playerName;
 @property (nonatomic,strong) NSString * location;
 @property (nonatomic,strong) NSString * teamName;
 @property (nonatomic,strong) NSNumber * totalScore;

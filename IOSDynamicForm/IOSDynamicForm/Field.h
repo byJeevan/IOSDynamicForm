@@ -18,10 +18,12 @@
 @property (nonatomic, strong) UILabel * errorMessageLabel;
 @property (nonatomic, strong) NSArray * validationItemsArray;
 
-//-(instancetype) initWithView:(id)editView errorMessageView:(UILabel *) messageLabel errorHintView:(UIView *) hintView validationsArray:(NSArray *) validationsArray;
+-(instancetype) initWithView:(id)editView errorMessageView:(UILabel *) messageLabel errorHintView:(UIView *) hintView validationsArray:(NSArray *) validationsArray;
 
 -(void) showErrorField:(Field *) field withMessage:(NSString *) message;
+
 -(void) showErrorField:(Field *) field withMessage:(NSString *) message makeMessageVisible:(BOOL) messageVisibleFlag;
+
 -(void) hideErrorField:(Field *) field;
 
 @end

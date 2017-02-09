@@ -10,13 +10,6 @@
 
 @interface UITextField(Field)
 
-@property (nonatomic, strong) NSString * fieldText;
-@property (nonatomic, strong) NSString * messageLabelText;
-
-@property (nonatomic, strong) UILabel * messageLabel;
-@property (nonatomic, strong) UIView * errorView;
-@property (nonatomic, strong) NSArray * validationItemsArray;
-
-
+ 
 
 @end

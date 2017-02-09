@@ -15,24 +15,24 @@
 
 @implementation Field
 
-//-(instancetype) initWithView:(id)editView errorMessageView:(UILabel *) messageLabel errorHintView:(UIView *) hintView validationsArray:(NSArray *) validationsArray {
-//    
-//    self = [super init];
-//    if (self) {
-//        
-//        self.viewWrapperField  = [[ViewWrapperFactory new] getViewWrapper:editView];
-//        
-//        self.errorMessageLabel = messageLabel;
-//        
-//        self.errorHintView  = hintView;
-//        
-//        self.validationItemsArray = [[NSArray alloc] initWithArray: validationsArray];
-//        
-//        [self initFieldAttributes];
-//    }
-//
-//    return self;
-//}
+-(instancetype) initWithView:(id)editView errorMessageView:(UILabel *) messageLabel errorHintView:(UIView *) hintView validationsArray:(NSArray *) validationsArray {
+    
+    self = [super init];
+    if (self) {
+        
+        self.viewWrapperField  = [[ViewWrapperFactory new] getViewWrapper:editView];
+        
+        self.errorMessageLabel = messageLabel;
+        
+        self.errorHintView  = hintView;
+        
+        self.validationItemsArray = [[NSArray alloc] initWithArray: validationsArray];
+        
+        [self initFieldAttributes];
+    }
+
+    return self;
+}
 
 -(void) initFieldAttributes {
     

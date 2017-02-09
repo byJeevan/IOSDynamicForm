@@ -10,7 +10,5 @@
 #import "Form.h"
 
 @interface UIView(Wrapper)
-
-//@property (nonatomic) NSMutableArray * arrayOfFormField;
-
+ 
 @end

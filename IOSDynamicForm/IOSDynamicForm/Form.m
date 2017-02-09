@@ -20,7 +20,7 @@
     
     if (self) {
         
-        self.fields = [NSMutableArray new];
+        self.fieldsArray = [NSMutableArray new];
     }
     return self;
 }
@@ -28,17 +28,14 @@
 
 -(void) addNewField:(Field *) field {
     
-//    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:nil]];
-    
-    
-    
+    [self.fieldsArray addObject:[[Fields new] initWithField:field andDependenctyField:nil]];
+
 }
 
 -(void) addNewField:(Field *)field withDependencyField:(Field *) dependencyField{
     
-//    [self.fields addObject:[[Fields new] initWithField:field andDependenctyField:dependencyField]];
+    [self.fieldsArray addObject:[[Fields new] initWithField:field andDependenctyField:dependencyField]];
 }
-
 
 -(BOOL) isFormValid {
     
@@ -46,7 +43,7 @@
     BOOL isErrorFieldFound = NO;
     
     //Loop via every Fields object array
-    for (Fields *fieldsObject in self.fields) {
+    for (Fields *fieldsObject in self.fieldsArray) {
         
         NSLog(@"We got first field : %@ \n Second : %@\n", fieldsObject.firstField, fieldsObject.dependencyField);
         

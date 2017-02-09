@@ -12,11 +12,18 @@
 #import "UIView+TJBinder.h"
 #import "UIView+Wrapper.h"
 
-#import "Field.h"
 #import "Form.h"
 
 @interface ViewController ()<UITextFieldDelegate>
 @property (nonatomic, strong) RegistrationDto *registrationDto;
+@property (nonatomic, strong) Form *form;
+@property (weak, nonatomic) IBOutlet UITextField *playerNameField;
+@property (weak, nonatomic) IBOutlet UILabel *errorLabel;
+@property (weak, nonatomic) IBOutlet UIButton *errorIcon;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *locationField;
+
 
 @end
 
@@ -35,28 +42,34 @@
     //Create a new dto
     self.registrationDto = [RegistrationDto new];
     
-    self.registrationDto.playerProfile.messageLabelText = @"Major error occured";
     
-    self.registrationDto.playerProfile.fieldText = @"JEevangamer";
+    //Create a form
+    self.form = [Form new];
+    self.form.errorMessageDefaultHidden = NO;
+    
+    Field * player = [[Field alloc] initWithView:self.playerNameField errorMessageView:self.errorLabel errorHintView:self.errorIcon validationsArray:[NSArray arrayWithObjects:[IsEmpty new], [IsAlphabet new], nil]];
+    
+    [self.form addNewField:player];
     
     //Binding data object
     self.view.dataObject = self.registrationDto;
-
-    
 }
 
 - (IBAction)actionButton:(id)sender {
     
-//    if ([self.form isFormValid]) {
+     if ([self.form isFormValid]) {
         //Do after valid
-    
-    
+        
         DetailedViewController * detailedViewController = [DetailedViewController new];
     
-        [self.view updateDataObjectFromView]; //////-> FORM VALIDATION HERE //////
+        [self.view updateDataObjectFromView];
+         
+         NSLog(@"DTO : %@", self.registrationDto); //////-> DTO Ready HERE //////
     
         //TODO : Pass registration DTO
         [self presentViewController:detailedViewController animated:NO completion:nil];
+         
+     }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -71,4 +84,5 @@
     
     return YES;
 }
+
 @end

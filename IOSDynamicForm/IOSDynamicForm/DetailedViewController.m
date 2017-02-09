@@ -9,6 +9,7 @@
 #import "DetailedViewController.h"
 
 @interface DetailedViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *detailedLabel;
 
 @end
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
+    _detailedLabel.text = self.dto.playerName;
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegistrationDto.h"
 
 @interface DetailedViewController : UIViewController
+
+@property (nonatomic, strong) RegistrationDto* dto;
 
 @end
